@@ -31,7 +31,7 @@ Para buscar dados do Pikachu diretamente no terminal:
 curl -s https://pokeapi.co/api/v2/pokemon/pikachu | jq '{name: .name, id: .id, types: .types[].type.name, sprite: .sprites.front_default}'
 
 Saída:
-![demonstracao5](./demonstracao5)
+![demonstracao5](./demonstracao5.png)
 
 Explicação do comando: 
  `curl -s`: Faz a requisição silenciosa.  
