@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de APIs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Blog de APIs</h1>
+        <p>Explore diferentes APIs através deste blog interativo.</p>
+    </header>
+
+    <main>
+        <section class="blog-post">
+            <h2>Piadas Aleatórias</h2>
+            <button id="obter-piada">Obter piada</button>
+            <div id="piada-saida"></div>
+        </section>
+
+        <section class="blog-post">
+            <h2>Quem é esse Pokémon?</h2>
+            <button id="obter-pokemon">Gerar Pokémon</button>
+            <div id="pokemon-saida" class="pokemon-container">
+                <div id="pokemon-silhueta" style="display: none;">
+                    <img id="silhueta-img" src="" alt="Silhueta do Pokémon" style="filter: brightness(0%);">
+                    <input type="text" id="palpite" placeholder="Digite seu palpite...">
+                    <button id="verificar-palpite">Verificar</button>
+                    <p id="dica"></p>
+                </div>
+                <div id="pokemon-revelado" style="display: none;">
+                    <h3 id="pokemon-nome"></h3>
+                    <img id="pokemon-img" src="" alt="Pokémon">
+                    <p id="pokemon-tipo"></p>
+                    <p id="resultado-palpite"></p>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog-post">
+            <h2>GitHub API: Dados do Usuário</h2>
+            <div class="api-container">
+                <label for="githubToken">Token GitHub (ghp_...):</label>
+                <input type="password" id="githubToken" placeholder="Cole seu Personal Access Token">
+                <button id="obter-github-user">Obter Dados do Usuário</button>
+                <div id="github-user-saida" class="result-display"></div>
+            </div>
+        </section>
+
+        <section class="blog-post">
+            <h2>NumVerify API: Validação de Telefone</h2>
+            <div class="api-container">
+                <label for="phoneNumber">Número de Telefone (ex: +5511987654321):</label>
+                <input type="text" id="phoneNumber" placeholder="Digite o número">
+                <button id="validar-telefone">Validar Número</button>
+                <div id="numverify-saida" class="result-display"></div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
