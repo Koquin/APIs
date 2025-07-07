@@ -1,3 +1,5 @@
+DEPLOY: https://koquin.github.io/APIs/
+
 ## API PARA VERIFICAR NUMERO DE TELEFONE (IAGO)
 #### LINK: https://numverify.com
 #### Descrição: Tendo suporte para centenas de locais, requisição para essa API retorna se o numero é válido e outras informações.
