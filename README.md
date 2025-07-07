@@ -9,3 +9,9 @@ Demonstração:
 #### Descrição: API do github para pegar dados do usuario. O usuario é identificado através do token de acesso passado, que no caso, é o meu.
 Demonstração:
 ![demonstracao2](./demonstracao2.png)
+
+## API PARA CONTAR PIADAS
+#### LINK: https://v2.jokeapi.dev/joke/
+#### Descrição: API que conta uma piada aleatoria a cada requisição
+Demonstração: 
+![demonstracao3](./demonstracao3.png)
